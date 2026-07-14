@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+   min-height: 100vh;
+   background-image: url("turkey-visa-online-1024x684.webp");
+    background-size: cover;
+    background-position: center;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 60vh;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.8);
+
+}
+
+.clock {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-radius: 6%;
+    background-color: rgba(249, 252, 254, 0.3);
+    backdrop-filter: blur(10px);
+    width: 55vh;
+    height: 25vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center ;
+    gap:4px;
+    padding:10%;
+
+}
+
+.date {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border:none;
+    border-radius: 10%;
+    background-color: rgba(249, 252, 254, 0.2);
+    margin-top: 3%;
+    width:45vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    position:relative;
+    border:none;
+    border-radius: 10%;
+    background-color: rgba(212, 224, 236, 0.5);
+    margin-top: 5%;
+    width:45vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
